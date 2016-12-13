@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Comic Sans MS",Georgia;
+}
+h2 {
+  width: 280px;
+  text-align: center;
+  margin: 0;
+  border: 1px solid black;
+  float: right;
+  position: relative;
+  left: 1px;
+  bottom: 1px;  
+  font-family: "Comic Sans MS",Georgia;
+}
+#h2_1{
+  background-color: #f29f3f; 
+}
+#h2_2{
+  background-color: #ffe957; 
+}
+#h2_3{
+  background-color: #e87e51;
+}
+p {
+  width: 92%;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;  
+  font-family: Arial;
+}
+.footer{
+  display: block;
+  height: 250px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Small devices **********/
+.col-sm-12 {
+    width: 85%;
+    height: auto;    
+    margin-left: 7.5%;
+    margin-top: 25px;
+    float: left;
+    border: 1px solid black;    
+    padding: 0;
+    background-color: grey;
+  }
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 45%;
+    height: 280px;
+    margin-left: 3.3%;
+  }
+  .col-md-6:last-child {
+    width: 93.3%;
+  }
+}
+/********** Large devices **********/
+@media (min-width: 992px) { 
+  .col-lg-4 {
+    width: 30%;
+    height: 300px;
+    margin-left: 2.5%;
+  }
+}
